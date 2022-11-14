@@ -1,0 +1,49 @@
+
+.swiper-slide .button-genre {
+    border: 1px solid #f3f3f3;
+    border: 1px solid #f33f3f;
+    color: #f33f3f;
+    width: 100%;
+}
+
+.swiper-slide .button-genre:hover {
+    border: 1px solid #e87681;
+    background: transparent;
+    color: #e87681;
+}
+
+.movie-card .movie-description {
+    bottom: -100%;
+    left: 1.75rem;
+    right: 1.75rem;
+    transition: 0.5s ease;
+}
+
+.movie-card:hover .movie-description {
+    bottom: 1.75rem;
+    transition: 0.5s ease;
+}
+
+.movie-card img:hover {
+    filter: brightness(50%);
+}
+
+.cast-card .cast-description {
+    bottom: -100%;
+    left: 1.75rem;
+    right: 1.75rem;
+    transition: 0.5s ease;
+}
+
+.cast-card:hover .cast-description{
+    bottom: 1.75rem;
+    transition: 0.5s ease;
+}
+
+.cast-card img:hover {
+    filter: brightness(50%);
+}
+
+.review-card {
+    background-color: rgba(0, 0, 0, 0.1);
+}

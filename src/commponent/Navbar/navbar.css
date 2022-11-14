@@ -1,0 +1,106 @@
+nav {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
+
+nav .wrapper {
+    height: 75px;
+}
+
+nav .nav-search {
+    width: 500px;
+}
+
+nav input {
+    border: 2px solid #ea6270;
+    background: transparent;
+    width: 100%;
+    color: white;
+}
+
+nav input:focus-visible {
+    border: 2px solid #e87681;
+    background: transparent;
+    width: 100%;
+    color: white;
+    outline: #e87681;
+}
+
+nav .nav-search .icon {
+    top: 10px;
+    font-size: 25px;
+    right: 25px;
+    color: white;
+}
+
+nav input:hover {
+    border-color: #e87681;
+}
+
+.button-border {
+    border: 1px solid #f33f3f;
+    color: #f33f3f;
+    background: transparent;
+    transition: 0.5s ease-in;
+}
+
+.button-border:hover {
+    border: 1px solid #e87681;
+    background: transparent;
+    transition: 400ms ease-in;
+    color: #e87681;
+}
+
+.button-full {
+    border: 1px solid #f33f3f;
+    background: #f33f3f;
+    transition: 0.5s ease-in;
+    color: white;
+}
+
+.button-full:hover {
+    border: 1px solid #e87681;
+    background: #e87681;
+    transition: 400ms ease-in;
+}
+
+.modal-body input {
+    border: 1px solid grey;
+}
+
+/* .modal-body input:focus-visible {
+    border: 1px solid #f33f3f;
+    outline: #f33f3f;
+  } */
+
+.modal-body .button-login {
+    background-color: #f33f3f;
+    color: white;
+    margin-left: 16px;
+}
+
+.modal-body input.input-error {
+    border: 1px solid #f33f3f;
+    outline: #f33f3f;
+}
+
+#dropdown-basic {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.grouping-input span input {
+    width: 100%;
+}
+
+.grouping-input span .icon {
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+}
